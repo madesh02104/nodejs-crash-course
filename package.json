@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "description": "Code-Along with traversey media's node.js crash course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madesh02104",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
